@@ -1,0 +1,303 @@
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    padding: 80px;
+
+    &-in {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.firstPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Name {
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btnJan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnb {
+    width: 98px;
+    height: 32px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+
+.jan {
+    text-align: right;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.lorem {
+    font-size: 12px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.55);
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box {
+    width: 215px;
+    height: 114px;
+    text-align: right;
+    font-size: 7px;
+    line-height: 10px;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+
+.box:not(:first-child) {
+    margin-left: 50px;
+}
+
+.txt {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.secondPage {
+    display: flex;
+    margin-top: 20vh;
+}
+
+.grid {
+    display: grid;
+}
+
+.two {
+    display: flex;
+    text-align: center;
+}
+
+.one {
+    width: 40px;
+    height: 48px;
+    background-color: black;
+    color: white;
+
+}
+
+.one:first-child {
+    margin-right: 1vh;
+}
+
+.color {
+    color: #363A41;
+    font-size: 36px;
+}
+
+.price {
+    color: #363A41;
+}
+
+.pricep {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pricep2 {
+    font-size: 12px;
+    color: #9ca1aa;
+}
+
+.lorem2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.sizeMedium {
+    display: flex;
+}
+
+.size {
+    margin-right: 1vh;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.medium {
+    margin-right: 1vh;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.vector {
+    width: 12px;
+    height: 6px;
+}
+
+.btna {
+    width: 147px;
+    height: 48px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+
+.grid2 {
+    display: grid;
+    margin-left: 50vh;
+}
+
+.buy {
+    text-align: right;
+}
+
+.buyp {
+    margin-bottom: 3vh;
+}
+
+.mens {
+    margin-top: 40vh;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.55);
+    text-align: right;
+}
+
+.Free {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: black;
+
+}
+
+.Frees {
+    color: #E7F0F2;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-buy {
+    display: flex;
+}
+
+.serach {
+    margin-right: 10vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.thirdpage {
+    margin-top: 5vh;
+}
+
+.buy3 {
+    margin-right: 3vh;
+}
+
+.featured {
+    margin-top: 250px;
+}
+
+.featuredp {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+}
+
+.category {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+}
+
+.category1 {
+    font-weight: bold;
+}
+
+.titbox {
+    position: relative;
+    width: 173px;
+    height: 116px;
+    background: rgba(231, 240, 242, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.categoryt {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    position: absolute;
+    bottom: -15px;
+}
+
+.title-here {
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.grid3 {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10vh;
+}
+
+.filter {
+    margin-left: 40vh;
+    justify-content: flex-end;
+    margin-top: 15vh;
+    text-align: right;
+}
+
+.filters {
+    padding: 2vh;
+}
+
+.filter1 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .grid3 {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid3 {
+        grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    }
+}
